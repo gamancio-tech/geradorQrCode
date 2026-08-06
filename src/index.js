@@ -1,7 +1,6 @@
 import prompt from 'prompt';
-import chalk from 'chalk';
 
-import mainPrompt from './prompts/prompt-main.js';
+import mainPrompt from './prompts-schema/prompt-main.js';
 
 import createQrCode from './services/qr-code/create.js';
 import cratePassword from './services/password/create.js';
