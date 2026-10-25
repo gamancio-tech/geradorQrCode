@@ -8,7 +8,7 @@ echo.
 REM Instala dependências se necessário
 if not exist "node_modules" (
     echo Instalando dependências...
-    npm install
+    call npm install
     echo.
 )
 
@@ -17,4 +17,7 @@ echo Iniciando em modo de desenvolvimento...
 echo Para parar: Pressione Ctrl+C
 echo.
 
-npm start
+call npm start
+
+echo.
+pause
